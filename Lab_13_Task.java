@@ -322,7 +322,7 @@ public class Lab_13_Task {
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "UyF/.b=DDFz5^ai");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "**********"); // securing Password for safety purpose
         }catch(Exception ex) {
             JOptionPane.showMessageDialog(null,ex.getMessage());
             System.exit(0);
